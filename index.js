@@ -22,7 +22,7 @@ function wrapAdjective(flair = "*") {
 
 const encouragingPromptFunction = wrapAdjective("!!!");
 console.log(encouragingPromptFunction("a dedicated programmer")); 
-
+//=> "You are %a dedicated programmer%!"
 console.log(wrapAdjective("%")("a dedicated programmer")); 
 console.log(wrapAdjective()()); 
 
